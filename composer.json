@@ -92,5 +92,6 @@
         "allow-plugins": {
             "sculpin/sculpin-theme-composer-plugin": true
         }
-    }
+    },
+    "dummy":{}
 }
