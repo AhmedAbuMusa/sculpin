@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "38093680a47d706df1e4e010cb1741f5",
+    "content-hash": "4815fb408100e34afee5a812c41b938e",
     "packages": [
         {
             "name": "dflydev/ant-path-matcher",
@@ -320,38 +320,33 @@
         },
         {
             "name": "doctrine/inflector",
-            "version": "1.4.4",
+            "version": "2.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/inflector.git",
-                "reference": "4bd5c1cdfcd00e9e2d8c484f79150f67e5d355d9"
+                "reference": "5817d0659c5b50c9b950feb9af7b9668e2c436bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/inflector/zipball/4bd5c1cdfcd00e9e2d8c484f79150f67e5d355d9",
-                "reference": "4bd5c1cdfcd00e9e2d8c484f79150f67e5d355d9",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/5817d0659c5b50c9b950feb9af7b9668e2c436bc",
+                "reference": "5817d0659c5b50c9b950feb9af7b9668e2c436bc",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1 || ^8.0"
+                "php": "^7.2 || ^8.0"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^8.0",
-                "phpstan/phpstan": "^0.12",
-                "phpstan/phpstan-phpunit": "^0.12",
-                "phpstan/phpstan-strict-rules": "^0.12",
-                "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0"
+                "doctrine/coding-standard": "^11.0",
+                "phpstan/phpstan": "^1.8",
+                "phpstan/phpstan-phpunit": "^1.1",
+                "phpstan/phpstan-strict-rules": "^1.3",
+                "phpunit/phpunit": "^8.5 || ^9.5",
+                "vimeo/psalm": "^4.25 || ^5.4"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
-                    "Doctrine\\Inflector\\": "lib/Doctrine/Inflector",
-                    "Doctrine\\Common\\Inflector\\": "lib/Doctrine/Common/Inflector"
+                    "Doctrine\\Inflector\\": "lib/Doctrine/Inflector"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -396,7 +391,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/inflector/issues",
-                "source": "https://github.com/doctrine/inflector/tree/1.4.4"
+                "source": "https://github.com/doctrine/inflector/tree/2.0.10"
             },
             "funding": [
                 {
@@ -412,7 +407,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-04-16T17:34:40+00:00"
+            "time": "2024-02-18T20:23:39+00:00"
         },
         {
             "name": "evenement/evenement",
@@ -519,16 +514,16 @@
         },
         {
             "name": "league/mime-type-detection",
-            "version": "1.15.0",
+            "version": "1.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/mime-type-detection.git",
-                "reference": "ce0f4d1e8a6f4eb0ddff33f57c69c50fd09f4301"
+                "reference": "2d6702ff215bf922936ccc1ad31007edc76451b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/mime-type-detection/zipball/ce0f4d1e8a6f4eb0ddff33f57c69c50fd09f4301",
-                "reference": "ce0f4d1e8a6f4eb0ddff33f57c69c50fd09f4301",
+                "url": "https://api.github.com/repos/thephpleague/mime-type-detection/zipball/2d6702ff215bf922936ccc1ad31007edc76451b9",
+                "reference": "2d6702ff215bf922936ccc1ad31007edc76451b9",
                 "shasum": ""
             },
             "require": {
@@ -559,7 +554,7 @@
             "description": "Mime-type detection for Flysystem",
             "support": {
                 "issues": "https://github.com/thephpleague/mime-type-detection/issues",
-                "source": "https://github.com/thephpleague/mime-type-detection/tree/1.15.0"
+                "source": "https://github.com/thephpleague/mime-type-detection/tree/1.16.0"
             },
             "funding": [
                 {
@@ -571,27 +566,30 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-01-28T23:22:08+00:00"
+            "time": "2024-09-21T08:32:55+00:00"
         },
         {
             "name": "michelf/php-markdown",
-            "version": "1.9.1",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/michelf/php-markdown.git",
-                "reference": "5024d623c1a057dcd2d076d25b7d270a1d0d55f3"
+                "reference": "eb176f173fbac58a045aff78e55f833264b34e71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/5024d623c1a057dcd2d076d25b7d270a1d0d55f3",
-                "reference": "5024d623c1a057dcd2d076d25b7d270a1d0d55f3",
+                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/eb176f173fbac58a045aff78e55f833264b34e71",
+                "reference": "eb176f173fbac58a045aff78e55f833264b34e71",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=7.4"
             },
             "require-dev": {
-                "phpunit/phpunit": ">=4.3 <5.8"
+                "friendsofphp/php-cs-fixer": "^3.0",
+                "phpstan/phpstan": ">=1.0",
+                "phpstan/phpstan-phpunit": ">=1.0",
+                "phpunit/phpunit": "^9.5"
             },
             "type": "library",
             "autoload": {
@@ -622,9 +620,9 @@
             ],
             "support": {
                 "issues": "https://github.com/michelf/php-markdown/issues",
-                "source": "https://github.com/michelf/php-markdown/tree/1.9.1"
+                "source": "https://github.com/michelf/php-markdown/tree/2.0.0"
             },
-            "time": "2021-11-24T02:52:38+00:00"
+            "time": "2022-09-26T12:21:08+00:00"
         },
         {
             "name": "netcarver/textile",
@@ -3395,83 +3393,37 @@
             "time": "2024-05-16T10:04:27+00:00"
         },
         {
-            "name": "webignition/disallowed-character-terminated-string",
-            "version": "2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/webignition/disallowed-character-terminated-string.git",
-                "reference": "1c35b8bacbb2e76837c0aa8538dc2468a1f10e6e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/webignition/disallowed-character-terminated-string/zipball/1c35b8bacbb2e76837c0aa8538dc2468a1f10e6e",
-                "reference": "1c35b8bacbb2e76837c0aa8538dc2468a1f10e6e",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.2"
-            },
-            "require-dev": {
-                "phpstan/phpstan": "^0.12.3",
-                "phpunit/phpunit": "~8.0",
-                "squizlabs/php_codesniffer": "^3.5"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "webignition\\DisallowedCharacterTerminatedString\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jon Cram",
-                    "email": "webignition@gmail.com"
-                }
-            ],
-            "description": "A string terminated by one or more disallowed characters",
-            "homepage": "https://github.com/webignition/disallowed-character-terminated-string",
-            "keywords": [
-                "string",
-                "terminated"
-            ],
-            "support": {
-                "issues": "https://github.com/webignition/disallowed-character-terminated-string/issues",
-                "source": "https://github.com/webignition/disallowed-character-terminated-string/tree/master"
-            },
-            "time": "2019-12-20T15:52:44+00:00"
-        },
-        {
             "name": "webignition/internet-media-type",
-            "version": "0.4.8",
+            "version": "4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webignition/internet-media-type.git",
-                "reference": "1a5bbe38033b00b23acd5e1dd10489bb07eed77c"
+                "reference": "bcb4918f04590ff5e18ef70e8e34583685e9447e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webignition/internet-media-type/zipball/1a5bbe38033b00b23acd5e1dd10489bb07eed77c",
-                "reference": "1a5bbe38033b00b23acd5e1dd10489bb07eed77c",
+                "url": "https://api.github.com/repos/webignition/internet-media-type/zipball/bcb4918f04590ff5e18ef70e8e34583685e9447e",
+                "reference": "bcb4918f04590ff5e18ef70e8e34583685e9447e",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.6.0",
-                "webignition/quoted-string": ">=0.2.1,<1.0",
-                "webignition/string-parser": ">=0.2.3,<1.0"
+                "php": ">=8",
+                "webignition/internet-media-type-interface": "^1.0",
+                "webignition/quoted-string": "^3.0",
+                "webignition/string-parser": "^3.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~5.0",
-                "squizlabs/php_codesniffer": "3.*"
+                "friendsofphp/php-cs-fixer": "^3.2",
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan": "^0.12.99",
+                "phpstan/phpstan-phpunit": "^0.12.22",
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "^3.6"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "webignition\\InternetMediaType\\": "src/",
-                    "webignition\\Tests\\InternetMediaType\\": "tests/"
+                    "webignition\\InternetMediaType\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3495,31 +3447,86 @@
             ],
             "support": {
                 "issues": "https://github.com/webignition/internet-media-type/issues",
-                "source": "https://github.com/webignition/internet-media-type/tree/master"
+                "source": "https://github.com/webignition/internet-media-type/tree/4.1"
             },
-            "time": "2018-03-12T14:54:00+00:00"
+            "time": "2021-10-15T16:07:26+00:00"
         },
         {
-            "name": "webignition/quoted-string",
-            "version": "0.2.1",
+            "name": "webignition/internet-media-type-interface",
+            "version": "1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/webignition/quoted-string.git",
-                "reference": "88b36b7be067796683ab3668e175322842dd5313"
+                "url": "https://github.com/webignition/internet-media-type-interface.git",
+                "reference": "0025d1539288442b76c0df5689cbce7929fd17a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webignition/quoted-string/zipball/88b36b7be067796683ab3668e175322842dd5313",
-                "reference": "88b36b7be067796683ab3668e175322842dd5313",
+                "url": "https://api.github.com/repos/webignition/internet-media-type-interface/zipball/0025d1539288442b76c0df5689cbce7929fd17a7",
+                "reference": "0025d1539288442b76c0df5689cbce7929fd17a7",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5.0",
-                "webignition/string-parser": ">=0.2.3,<1"
+                "php": ">=7.4"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "3.*"
+                "friendsofphp/php-cs-fixer": "^3.2",
+                "phpstan/phpstan": "^0.12.99",
+                "squizlabs/php_codesniffer": "^3.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "webignition\\InternetMediaTypeInterface\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jon Cram",
+                    "email": "jon@webignition.net"
+                }
+            ],
+            "description": "PHP interfaces for a model of an http://en.wikipedia.org/wiki/Internet_media_type",
+            "homepage": "https://github.com/webignition/internet-media-type-interface",
+            "keywords": [
+                "content type",
+                "content-type",
+                "internet media type",
+                "media type",
+                "media-type"
+            ],
+            "support": {
+                "issues": "https://github.com/webignition/internet-media-type-interface/issues",
+                "source": "https://github.com/webignition/internet-media-type-interface/tree/1.0"
+            },
+            "time": "2021-10-15T15:27:08+00:00"
+        },
+        {
+            "name": "webignition/quoted-string",
+            "version": "3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webignition/quoted-string.git",
+                "reference": "00487e149d2bf26189dd4e75ac5ff03a788f55f5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webignition/quoted-string/zipball/00487e149d2bf26189dd4e75ac5ff03a788f55f5",
+                "reference": "00487e149d2bf26189dd4e75ac5ff03a788f55f5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8",
+                "webignition/string-parser": ">=3,<4"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.2",
+                "phpstan/phpstan": "^0.12.99",
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "^3.6"
             },
             "type": "library",
             "autoload": {
@@ -3535,7 +3542,7 @@
             "authors": [
                 {
                     "name": "Jon Cram",
-                    "email": "jon@webignition.net"
+                    "email": "webignition@gmail.com"
                 }
             ],
             "description": "A parser for string values that are encapsulated in double quotes (ASCII 34)",
@@ -3546,37 +3553,37 @@
             ],
             "support": {
                 "issues": "https://github.com/webignition/quoted-string/issues",
-                "source": "https://github.com/webignition/quoted-string/tree/master"
+                "source": "https://github.com/webignition/quoted-string/tree/3.0"
             },
-            "time": "2017-05-11T11:41:31+00:00"
+            "time": "2021-10-14T11:06:26+00:00"
         },
         {
             "name": "webignition/string-parser",
-            "version": "0.2.3",
+            "version": "3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webignition/string-parser.git",
-                "reference": "8591e28c05bd250bcc67b8001f3588995b9ef74b"
+                "reference": "85c0e035335122fa6388abbf9db564864d7e00b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webignition/string-parser/zipball/8591e28c05bd250bcc67b8001f3588995b9ef74b",
-                "reference": "8591e28c05bd250bcc67b8001f3588995b9ef74b",
+                "url": "https://api.github.com/repos/webignition/string-parser/zipball/85c0e035335122fa6388abbf9db564864d7e00b6",
+                "reference": "85c0e035335122fa6388abbf9db564864d7e00b6",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0",
-                "webignition/disallowed-character-terminated-string": ">=1.0"
+                "php": ">=8"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "3.*"
+                "friendsofphp/php-cs-fixer": "^3.2",
+                "phpstan/phpstan": "^0.12.99",
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "^3.6"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "webignition\\StringParser\\": "src/",
-                    "webignition\\Tests\\StringParser\\": "tests/"
+                    "webignition\\StringParser\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3597,9 +3604,9 @@
             ],
             "support": {
                 "issues": "https://github.com/webignition/string-parser/issues",
-                "source": "https://github.com/webignition/string-parser/tree/master"
+                "source": "https://github.com/webignition/string-parser/tree/3.0"
             },
-            "time": "2017-05-11T10:04:12+00:00"
+            "time": "2021-10-14T10:17:23+00:00"
         }
     ],
     "packages-dev": [
@@ -4180,16 +4187,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.11.5",
+            "version": "1.12.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "490f0ae1c92b082f154681d7849aee776a7c1443"
+                "reference": "dc4d2f145a88ea7141ae698effd64d9df46527ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/490f0ae1c92b082f154681d7849aee776a7c1443",
-                "reference": "490f0ae1c92b082f154681d7849aee776a7c1443",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/dc4d2f145a88ea7141ae698effd64d9df46527ae",
+                "reference": "dc4d2f145a88ea7141ae698effd64d9df46527ae",
                 "shasum": ""
             },
             "require": {
@@ -4234,7 +4241,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-06-17T15:10:54+00:00"
+            "time": "2024-10-06T15:03:59+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -5703,21 +5710,20 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v5.4.40",
+            "version": "v7.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "ea43887e9afd2029509662d4f95e8b5ef6fc9bbb"
+                "reference": "1c7cee86c6f812896af54434f8ce29c8d94f9ff4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/ea43887e9afd2029509662d4f95e8b5ef6fc9bbb",
-                "reference": "ea43887e9afd2029509662d4f95e8b5ef6fc9bbb",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/1c7cee86c6f812896af54434f8ce29c8d94f9ff4",
+                "reference": "1c7cee86c6f812896af54434f8ce29c8d94f9ff4",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.5",
-                "symfony/polyfill-php80": "^1.16"
+                "php": ">=8.2"
             },
             "type": "library",
             "autoload": {
@@ -5749,7 +5755,7 @@
             "description": "Converts CSS selectors to XPath expressions",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/css-selector/tree/v5.4.40"
+                "source": "https://github.com/symfony/css-selector/tree/v7.1.1"
             },
             "funding": [
                 {
@@ -5765,7 +5771,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-05-31T14:33:22+00:00"
+            "time": "2024-05-31T14:57:53+00:00"
         },
         {
             "name": "symfony/dom-crawler",
